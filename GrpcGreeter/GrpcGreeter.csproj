@@ -12,4 +12,8 @@
     <PackageReference Include="Grpc.AspNetCore" Version="2.32.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true"/>
+  </ItemGroup>
+
 </Project>
